@@ -26,5 +26,5 @@ def evaluate_class_model(tp, fp, fn):
     f1 = 2 * (precision * recall) / (precision + recall)
     return f1 # return only F1
 
-assert round(evaluate_class_model(2, 3, 5), 2) == 0.33
+assert round(evaluate_class_model(2,3,5),2) == 0.33
 print(round(evaluate_class_model(2, 4, 5), 2))
